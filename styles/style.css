@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    display:inline;
+}
+.BR{
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.archi{
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+.links{
+    display: inline-block;
+    margin-left: 900px;
+    font-family: sans-serif;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+.headerdiv{
+  border-bottom : 1px solid rgb(155, 152, 152);
+box-shadow: 0px 2px 2px rgb(155, 152, 152);
+padding: 5px;
+}
+.bgimg img{
+
+ margin: auto 0;
+position: relative;
+}
+.bgimg .text{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    font-size: large;
+    padding: 8px;
+
+}
+.bgimg .text2{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    color:white;
+    font-size: 130%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+}
+.project
+{
+    margin: 60px 0px 45px 100px;
+    font-family: sans-serif;
+}
+.images{
+    display: flex;
+    justify-content: center;
+   position: relative;
+}
+.images div{ 
+    padding: 10px;
+}
+.ht1{
+    position: absolute;
+    left: 100px;
+    top: 5%;
+    border: 1px solid black;
+    background-color: black;
+    color: white;  
+}
+.ht2{
+    position: absolute;
+    left: 370px;
+    top: 5%;
+    background-color: black;
+    color: white;  
+}
+.ht3{
+    position: absolute;
+    left: 640px;
+    top: 5%;
+    background-color: black;
+    color: white;
+}
+.ht4{
+    position: absolute;
+    left: 910px;
+    top: 5%;
+    background-color: black;
+    color: white;
+}
+.gallery{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.abouttext{
+    margin: 60px 0px 0px 100px;
+    font-family: sans-serif;
+}
+.para{
+    margin: 25px 0px 25px 100px;
+    font-family: sans-serif;
+    width: 1075px;
+}
+.persons{
+    width: 86%;
+    margin: auto;
+    display: flex;
+}
+.persons div{
+    margin: 5px;
+}
+.ceo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(168, 164, 164);
+}
+button{
+  width: 100%;
+  border: 1px groove rgb(237, 237, 237);;
+  border-radius: 0%;
+  padding: 5px;
+  background-color: rgb(237, 237, 237);
+}
+.contacts{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    flex-direction: column;
+}
+.cttext{
+   margin: 70px 0px 30px 0px; 
+   font-size: large
+}
+#Name{
+    margin-top: 10px ;
+    padding: 5px;
+    border: 1px groove rgb(218, 215, 215);
+}
+.button{
+    width: 150px;
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    padding: 15px 0px 10px 0px ;
+}
+.map{
+    width: 84%;
+    margin: auto;
+margin-top: 30px;
+margin-bottom: 5px;
+}
+.footerlink{
+    text-decoration: underline;
+    color: white;
+}
