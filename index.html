@@ -1,145 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
 </head>
-
 <body>
-    <header>
-        <div class="headerdiv">
-            <span class="BR">
-                <p style="font-weight: bold;font-family: sans-serif;">BR</p>
-            </span>
-            <span class="archi">
-                <p>Architects</p>
-            </span>
-            <span class="links">
-                <a href="">Projects</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
-            </span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Br</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Architects<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
         </div>
-    </header>
-    <div>
-        <div class="bgimg">
-            <center>
-             <!-- <img src="../assets/architect.jpg"/> -->
-                <img src="./assets/architect.jpg" alt="architect" height="550px" width="1060px">
-            </center>
-            <div class="text" style="opacity: 0.7;">BR</div>
-            <div class="text2">Architects</div>
+      </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+              <div class="image-container">
+                <img src="./assets/architect.jpg" alt="Placeholder Image" class="img-fluid">
+                <div class="image-text "><span class="bg-dark p-2">BR</span> Architects</div>
+
+              </div>
+            </div>
+          </div>
+        
+        
+
+        <div class="row">
+            <div class="col">
+                <h5 class="project mt-5">Projects</h5>
+            </div>
         </div>
-    </div>
-    <div class="project">Projects</div>
-    <div class="gallery">
-        <div class="images">
-            <div><img src="./assets/house5.jpg" alt="house 1" width="250px"></div>
-            <div><img src="./assets/house2.jpg" alt="house 2" width="250px"></div>
-            <div><img src="./assets/house3.jpg" alt="house 3" width="250px"></div>
-            <div><img src="./assets/house4.jpg" alt="house 4" width="250px"></div>
-            <div class="ht1">Summer house</div>
-            <div class="ht2">Brick House</div>
-            <div class="ht3">Renovated</div>
-            <div class="ht4">Barn House</div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mt-2">
+                    <div class="gallery">
+                        <div class="images">
+                            <div class="image-container">
+                                <img src="./assets/house5.jpg" alt="house 1" class="img-fluid">
+                                <div class="card-image-text">Summer house</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="gallery">
+                        <div class="images">
+                            <div class="image-container">
+                                <img src="./assets/house2.jpg" alt="house 2" class="img-fluid">
+                                <div class="card-image-text">Brick House</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="gallery">
+                        <div class="images">
+                            <div class="image-container">
+                                <img src="./assets/house3.jpg" alt="house 3" class="img-fluid">
+                                <div class="card-image-text">Renovated</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="gallery">
+                        <div class="images">
+                            <div class="image-container">
+                                <img src="./assets/house4.jpg" alt="house 4" class="img-fluid">
+                                <div class="card-image-text">Barn House</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="gallery">
+                        <div class="images">
+                            <div class="image-container">
+                                <img src="./assets/house5.jpg" alt="house 1" class="img-fluid">
+                                <div class="card-image-text">Summer house</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="gallery">
+                        <div class="images">
+                            <div class="image-container">
+                                <img src="./assets/house2.jpg" alt="house 2" class="img-fluid">
+                                <div class="card-image-text">Brick House</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="gallery">
+                        <div class="images">
+                            <div class="image-container">
+                                <img src="./assets/house3.jpg" alt="house 3" class="img-fluid">
+                                <div class="card-image-text">Renovated</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="gallery">
+                        <div class="images">
+                            <div class="image-container">
+                                <img src="./assets/house4.jpg" alt="house 4" class="img-fluid">
+                                <div class="card-image-text">Barn House</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="images">
-            <div><img src="./assets/house2.jpg" alt="house 2" width="250px"></div>
-            <div><img src="./assets/house5.jpg" alt="house 1" width="250px"></div>
-            <div><img src="./assets/house4.jpg" alt="house 4" width="250px"></div>
-            <div><img src="./assets/house3.jpg" alt="house 3" width="250px"></div>
-            <div class="ht1">Summer house</div>
-            <div class="ht2">Brick House </div>
-            <div class="ht3">Renovated</div>
-            <div class="ht4">Barn House</div>
+        
+
+        <div class="row">
+            <div class="col">
+                <h5 class="abouttext mt-5">About</h5>
+                <div class="para mt-3">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident corporis, at repellat perferendis,
+                    facilis animi aspernatur voluptates illo rerum ipsa non facere, eveniet quasi quod libero deserunt aliquid
+                    nostrum. Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis iste nostrum odit,
+                    sunt totam rem expedita optio sint ea ut amet! Possimus, maxime! Ab dolorum ipsa consequuntur ducimus
+                    molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iure rem, dolorum, culpa
+                    voluptatibus odio perspiciatis ullam fugit vel pariatur quos molestias praesentium obcaecati saepe veniam,
+                    repellendus amet magnam quis?
+                </div>
+            </div>
         </div>
-        <div class="abouttext">
-            About
-        </div>
-        <div class="para">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident corporis, at repellat perferendis,
-            facilis animi aspernatur voluptates illo rerum ipsa non facere, eveniet quasi quod libero deserunt aliquid
-            nostrum. Maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perferendis iste nostrum odit,
-            sunt totam rem expedita optio sint ea ut amet! Possimus, maxime! Ab dolorum ipsa consequuntur ducimus
-            molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iure rem, dolorum, culpa
-            voluptatibus odio perspiciatis ullam fugit vel pariatur quos molestias praesentium obcaecati saepe veniam,
-            repellendus amet magnam quis?
-        </div>
-        <div class="persons">
-            <div class="person1">
+
+        <div class="row">
+            <div class="col-md-3 mt-4">
                 <div class="pgimg">
-                    <img src="./assets/team2.jpg" alt="Person 1" width="250px" height="150px">
+                    <img src="./assets/team2.jpg" alt="Person 1" class="img-fluid">
                 </div>
                 <div style="font-weight: bold; font-family: sans-serif;">John doe</div>
-                <div class="ceo">CEO & Founder</div>
+                <div class="ceo" style="opacity: 0.7;">CEO & Founder</div>
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab modi aut sunt adipisci possimus?
                     illum!</div>
-                <div>
-                    <button>Contact</button>
-                </div>
+                    <div>
+                        <button class="btn btn-dark btn-block  text-dark border" style="border-color: #fff; background-color: aliceblue;">Contact</button>
+                    </div>
             </div>
-            <div class="person2">
+            <div class="col-md-3 mt-4">
                 <div class="pgimg">
-                    <img src="./assets/team1.jpg" alt="Person 1" width="250px" height="150px">
+                    <img src="./assets/team2.jpg" alt="Person 1" class="img-fluid">
                 </div>
-                <div style="font-weight: bold; font-family: sans-serif;">Jane Doe</div>
-                <div class="ceo">Architect</div>
+                <div style="font-weight: bold; font-family: sans-serif;">John doe</div>
+                <div class="ceo" style="opacity: 0.7;">CEO & Founder</div>
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab modi aut sunt adipisci possimus?
                     illum!</div>
-                <div>
-                    <button>Contact</button>
-                </div>
+                    <div>
+                        <button class="btn btn-dark btn-block  text-dark border" style="border-color: #fff; background-color: aliceblue;">Contact</button>
+                    </div>
             </div>
-            <div class="person3">
+            <div class="col-md-3 mt-4">
                 <div class="pgimg">
-                    <img src="./assets/team3.jpg" alt="Person 1" width="250px" height="150px">
+                    <img src="./assets/team2.jpg" alt="Person 1" class="img-fluid">
                 </div>
-                <div style="font-weight: bold; font-family: sans-serif;">Mick Ross</div>
-                <div class="ceo">Architect</div>
+                <div style="font-weight: bold; font-family: sans-serif;">John doe</div>
+                <div class="ceo" style="opacity: 0.7;">CEO & Founder</div>
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab modi aut sunt adipisci possimus?
                     illum!</div>
-                <div>
-                    <button>Contact</button>
-                </div>
+                    <div>
+                        <button class="btn btn-dark btn-block  text-dark border" style="border-color: #fff; background-color: aliceblue;">Contact</button>
+                    </div>
             </div>
-            <div class="person4">
+            <div class="col-md-3 mt-4">
                 <div class="pgimg">
-                    <img src="./assets/team4.jpg" alt="Person 1" width="250px" height="150px">
+                    <img src="./assets/team2.jpg" alt="Person 1" class="img-fluid">
                 </div>
-                <div style="font-weight: bold; font-family: sans-serif;">Dan Star</div>
-                <div class="ceo">Architect</div>
+                <div style="font-weight: bold; font-family: sans-serif;">John doe</div>
+                <div class="ceo" style="opacity: 0.7;">CEO & Founder</div>
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab modi aut sunt adipisci possimus?
                     illum!</div>
-                <div>
-                    <button>Contact</button>
-                </div>
+                    <div>
+                        <button class="btn btn-dark btn-block  text-dark border" style="border-color: #fff; background-color: aliceblue;">Contact</button>
+                    </div>
             </div>
-        </div>
-        <div class="contacts">
-            <div class="cttext">
-                Contact
-            </div>
-            <p style="margin-bottom: 5px;">Let's get in touch and talk about your next project.</p>
-            <input type="text" name="Name" id="Name" placeholder="Name">
-            <input type="email" name="email" id="Name" placeholder="Email">
-            <input type="subject" name="subject" id="Name" placeholder="Subject">
-            <input type="contact" name="contact" id="Name" placeholder="Contact">
-            <Button class="button">SEND MESSAGE</Button>
-        </div>
-        <div class="map">
-            <div>
-                <img src="./assets/map.jpg" alt="Map" width="100%">
-            </div>
-        </div>
-        <main>
-        </main>
-        <footer style="background-color: black; color:white;padding: 20px;">
-            <center>
-                Powered by <a href="https://www.w3schools.com/css/default.asp" class="footerlink"> w3.css</a></center>
-        </footer>
-</body>
 
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="contacts mt-5">
+                    <h5 class="cttext">Contact</h5>
+                    <p style="margin-bottom: 5px;">Let's get in touch and talk about your next project.</p>
+                    <input type="text" name="Name" class="form-control" placeholder="Name">
+                    <input type="email" name="email" class="form-control mt-2" placeholder="Email">
+                    <input type="subject" name="subject" class="form-control mt-2" placeholder="Subject">
+                    <input type="contact" name="contact" class="form-control mt-2" placeholder="Contact">
+                    <Button class="btn btn-dark mt-2">SEND MESSAGE</Button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="map my-5 ">
+                    <img src="./assets/architect.jpg" alt="Map" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <center>
+                        Powered by <a href="https://www.w3schools.com/css/default.asp" class="text-light" >w3.css</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
